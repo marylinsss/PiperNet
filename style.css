@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+  pointer-events: all;
+}
+header{
+  background: #007765;
+  width: 100%;
+  height: 84px;
+  position: relative;
+}
+.menu{
+  display: flex;
+  color: white;
+  font-size: 24px;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+.menu p{
+  margin-right: 10px;
+  font-weight: 300;
+}
+.head-img{
+  position: absolute;
+  top: 20px;
+  left: 55px;
+}
+.top-picture{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  width: 100%;
+}
+.top-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+h2{
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  color: #007765;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+}
+.main-text{
+  margin-top: 0;
+  font-size: 32px;
+  padding: 0 55px;
+}
+.container-middle-img{
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+.hero{
+  padding: 128px 0;
+  background-image: url(img/middle-img.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-middle-text{
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  line-height: 56px;
+  font-weight: 500;
+}
+.coin{
+  font-size: 32px;
+  padding: 50px 55px;
+  background-color: white;
+}
+.coin img{
+  float: left;
+  margin-right: 50px;
+}
+.the-team{
+  margin: 100px 0;
+  text-align: center;
+}
+.name{
+  font-size: 24px;
+  font-weight: bold;
+  color: #007765;
+  margin: 0;
+}
+.role{
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+.line1, .line2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+footer{
+  height: 176;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 30px 50px;
+}
+.main-text, .coin-text, .the-team{
+  max-width: 1110px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 50px;
+}
